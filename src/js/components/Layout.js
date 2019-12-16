@@ -4,12 +4,12 @@ import Footer from "./Footer";
 
 
 export default class Layout extends React.Component {
-  constructor(){
+  constructor() {
     super();
-    this.state = {title: "文字を入力する"}
+    this.state = { title: "文字を入力する" }
   }
-  changeTitle(title){
-    this.setState({title});
+  changeTitle(title) {
+    this.setState({ title });
   }
 
   render() {
